@@ -1,157 +1,205 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Common Thread | Miami University</title>
-  <meta name="description" content="Common Thread is a student-led service organization at Miami University creating handmade tie blankets that bring comfort and connection." />
+  <meta name="description" content="Common Thread is a student-led service organization at Miami University creating handmade tie blankets for hospice patients at Cleveland Clinic Akron General.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Fraunces:opsz,wght@9..144,600;9..144,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <header class="site-header">
-    <a class="brand" href="#top" aria-label="Common Thread home">
-      <img class="brand-logo" src="assets/common-thread-heart.png" alt="" />
-      <span class="brand-name">common thread</span>
+  <header class="nav">
+    <a class="wordmark" href="#top">
+      <img src="assets/common-thread-heart.png" alt="Common Thread heart logo">
+      <span>common thread</span>
     </a>
-    <button class="menu-toggle" aria-expanded="false" aria-controls="site-nav">Menu</button>
-    <nav id="site-nav" class="site-nav" aria-label="Main navigation">
-      <a href="#about">About</a>
-      <a href="#what-we-do">What We Do</a>
-      <a href="#impact">Our Impact</a>
-      <a href="#events">GBMs</a>
-      <a href="#get-involved" class="nav-cta">Get Involved</a>
+    <button class="menu-toggle" aria-expanded="false" aria-controls="nav-links">Menu</button>
+    <nav id="nav-links">
+      <a href="#story">Our story</a>
+      <a href="#how">How it works</a>
+      <a href="#impact">Impact</a>
+      <a href="#gbms">GBMs</a>
+      <a class="nav-pill" href="https://miamicentral.miamioh.edu/Commonthread/club_signup" target="_blank" rel="noopener">Join us ↗</a>
     </nav>
   </header>
 
   <main id="top">
     <section class="hero">
-      <div class="hero-copy">
-        <p class="eyebrow">Miami University • Student-led service</p>
-        <h1>Creating comfort, <em>one knot at a time.</em></h1>
-        <p class="hero-text">Common Thread brings Miami students together to make handmade tie blankets, build community, and create something meaningful for people who need a little extra comfort.</p>
-        <div class="hero-actions">
-          <a class="button primary" href="https://miamicentral.miamioh.edu/Commonthread/club_signup" target="_blank" rel="noopener">Join our roster <span>↗</span></a>
-          <a class="button secondary" href="https://www.givetomiamioh.org/CommonThread" target="_blank" rel="noopener">Support Common Thread</a>
+      <div class="hero-left">
+        <p class="kicker">Miami University • Student-led service</p>
+        <h1>Comfort is something <span>we can create.</span></h1>
+        <p class="hero-copy">Common Thread brings Miami students together to make handmade tie blankets, build community, and give comfort to hospice patients.</p>
+        <div class="hero-buttons">
+          <a class="btn btn-dark" href="https://miamicentral.miamioh.edu/Commonthread/club_signup" target="_blank" rel="noopener">Join Common Thread <b>↗</b></a>
+          <a class="btn btn-ghost" href="#impact">See our impact ↓</a>
         </div>
-        <div class="hero-note"><span class="dot"></span> Made with time, teamwork &amp; a lot of heart.</div>
+        <div class="hero-caption"><span>♥</span> Made with time, teamwork &amp; a lot of heart.</div>
       </div>
-      <div class="hero-art" aria-label="Common Thread heart logo">
-        <div class="sun"></div>
-        <div class="blob blob-one"></div><div class="blob blob-two"></div>
-        <div class="logo-card">
-          <img src="assets/common-thread-heart.png" alt="Common Thread heart logo" />
-          <div class="logo-fringe">||||||||||||||||||||||||</div>
+
+      <div class="hero-right" aria-hidden="true">
+        <div class="sun-ring"></div>
+        <div class="hero-card">
+          <div class="hero-card-top">COMMON<br>THREAD</div>
+          <img src="assets/common-thread-heart.png" alt="">
+          <div class="fringe">||||||||||||||||||||||||||||</div>
+          <div class="hero-sticker">tie<br>something<br>meaningful</div>
         </div>
-        <div class="heart-doodle">♥</div>
+        <div class="mini-note">warmth<br>starts here ♡</div>
       </div>
     </section>
 
-    <section id="about" class="section intro">
-      <div class="section-label">01 / About Common Thread</div>
-      <div class="intro-grid">
+    <section class="marquee" aria-label="Common Thread values">
+      <div>MAKE</div><span>✦</span><div>CONNECT</div><span>✦</span><div>GIVE</div><span>✦</span><div>REPEAT</div><span>✦</span><div>MAKE</div><span>✦</span><div>CONNECT</div>
+    </section>
+
+    <section class="story section" id="story">
+      <div class="section-tag">01 — Our story</div>
+      <div class="story-grid">
         <div>
-          <h2>There’s a <span>common thread</span> in all of us.</h2>
-          <p class="lead">We believe something as simple as making a blanket can create warmth, connection, and a reminder that someone cares.</p>
+          <h2>There’s a common thread <i>in all of us.</i></h2>
+          <p class="big-copy">A blanket can be simple. The feeling behind it doesn't have to be.</p>
         </div>
-        <div class="about-copy">
-          <p>Common Thread is a student-led service organization at Miami University. We gather students together for hands-on blanket making while creating a welcoming community on campus.</p>
-          <p>Our blankets are made to bring comfort to hospice patients at <strong>Cleveland Clinic Akron General</strong>.</p>
-          <a class="text-link" href="https://my.clevelandclinic.org/locations/akron-general" target="_blank" rel="noopener">See where our blankets go →</a>
+        <div class="story-copy">
+          <p>Common Thread is a student-led service organization at Miami University. We gather students for hands-on blanket making while creating a welcoming community on campus.</p>
+          <p>Our handmade tie blankets are created to bring comfort to hospice patients at <strong>Cleveland Clinic Akron General.</strong></p>
+          <a class="arrow-link" href="https://my.clevelandclinic.org/locations/akron-general" target="_blank" rel="noopener">Where our blankets go <span>↗</span></a>
         </div>
       </div>
     </section>
 
-    <section id="what-we-do" class="section lavender-section">
-      <div class="section-label">02 / What we do</div>
-      <div class="section-heading intro-heading"><div><h2>Gather. Create. Give.</h2><p class="section-subtext">You don’t need sewing experience or a special skill set. Just come ready to make something with us.</p></div></div>
-      <div class="cards">
-        <article class="info-card"><div class="card-number">01</div><div class="card-icon">✂</div><h3>Gather</h3><p>Students come together at our GBMs to make blankets, meet new people, and spend time giving back.</p></article>
-        <article class="info-card"><div class="card-number">02</div><div class="card-icon">♡</div><h3>Create</h3><p>We turn soft fabric and simple knots into handmade tie blankets filled with time, teamwork, and care.</p></article>
-        <article class="info-card"><div class="card-number">03</div><div class="card-icon">↗</div><h3>Give</h3><p>Our finished blankets go to hospice patients at Cleveland Clinic Akron General, where they can offer comfort and warmth.</p></article>
+    <section class="how section" id="how">
+      <div class="section-tag">02 — How it works</div>
+      <div class="how-head">
+        <h2>Gather. Create. <i>Give.</i></h2>
+        <p>No sewing experience required. Just bring yourself.</p>
+      </div>
+      <div class="steps">
+        <article>
+          <div class="step-num">01</div>
+          <div class="step-mark">+</div>
+          <h3>Gather</h3>
+          <p>Meet us at a GBM, grab some fabric, and spend time with other Miami students.</p>
+        </article>
+        <article class="step-featured">
+          <div class="step-num">02</div>
+          <div class="step-mark">♡</div>
+          <h3>Create</h3>
+          <p>Tie, talk, laugh, and turn two pieces of fleece into a handmade blanket.</p>
+        </article>
+        <article>
+          <div class="step-num">03</div>
+          <div class="step-mark">→</div>
+          <h3>Give</h3>
+          <p>Finished blankets go to hospice patients at Cleveland Clinic Akron General.</p>
+        </article>
       </div>
     </section>
 
-    <section id="impact" class="section impact">
-      <div class="impact-copy">
-        <div class="section-label">03 / Our impact</div>
-        <h2>Small knots.<br><span>Big meaning.</span></h2>
-        <p>Every blanket starts with students sitting around a table. From there, a little time and teamwork can become something that travels much farther than we do.</p>
-        <div class="impact-stats">
-          <div><strong class="stat">10</strong><span>blankets this semester</span></div>
-          <div><strong class="stat">108</strong><span>coasters this semester</span></div>
-          <div><strong class="stat">106</strong><span>registered members</span></div>
+    <section class="impact section" id="impact">
+      <div class="section-tag">03 — Our impact</div>
+      <div class="impact-layout">
+        <div class="impact-heading">
+          <h2>Small knots.<br><i>Big meaning.</i></h2>
+          <p>Every blanket starts with students sitting around a table. From there, a little time and teamwork can travel much farther than we do.</p>
         </div>
-        <div class="impact-history"><strong>Last year</strong><span>100+ blankets • 12 GBMs • 5 collaborations</span></div>
-        <div class="impact-history"><strong>This semester</strong><span>2 meetings so far • 4+ campus collaborations expected</span></div>
-      </div>
-      <div class="impact-visual">
-        <div class="photo-placeholder photo-main"><div class="placeholder-inner"><span>📸</span><p>Your Common Thread photos</p><small>You can add your own event and blanket photos here later.</small></div></div>
-        <div class="floating-note note-one">made with care ♡</div>
-        <div class="floating-note note-two">one knot at a time</div>
+        <div class="stats">
+          <div class="stat-card primary-stat"><strong>10</strong><span>blankets<br>this semester</span></div>
+          <div class="stat-card"><strong>108</strong><span>coasters<br>this semester</span></div>
+          <div class="stat-card"><strong>106</strong><span>Miami Central<br>members</span></div>
+          <div class="stat-card wide"><strong>100+</strong><span>blankets made last year</span></div>
+          <div class="stat-card"><strong>12</strong><span>GBMs<br>last year</span></div>
+          <div class="stat-card"><strong>5</strong><span>collaborations<br>last year</span></div>
+        </div>
       </div>
     </section>
 
-    <section id="events" class="section events">
-      <div class="section-heading"><div><div class="section-label">04 / General body meetings</div><h2>Come make something with us.</h2><p class="section-subtext">Check our current Instagram post for the latest GBM dates, times, and details.</p></div><a href="https://www.instagram.com/p/DcwICspRsrH/?utm_source=ig_web_copy_link" target="_blank" rel="noopener" class="text-link">View GBM schedule ↗</a></div>
-      <div class="event-feature">
-        <div class="event-feature-icon">🧶</div>
-        <div><span class="pill">Current schedule</span><h3>Our GBMs are where the magic happens.</h3><p>Come hang out, learn how we make tie blankets, connect with other Miami students, and help us create something meaningful.</p></div>
-        <a class="button primary small-button" href="https://www.instagram.com/p/DcwICspRsrH/?utm_source=ig_web_copy_link" target="_blank" rel="noopener">See dates <span>↗</span></a>
+    <section class="photo-band section">
+      <div class="section-tag">04 — Your Common Thread</div>
+      <div class="photo-intro">
+        <h2>The people behind<br><i>the blankets.</i></h2>
+        <p>These spaces are ready for your photos. Swap in GBMs, blanket-making, finished blankets, or group shots whenever you're ready.</p>
       </div>
-      <div class="event-footer"><span>No sewing experience required.</span><a href="https://miamicentral.miamioh.edu/Commonthread/club_signup" target="_blank" rel="noopener">Join the roster →</a></div>
+      <div class="photo-grid">
+        <div class="photo-box large"><span>YOUR PHOTO</span><small>Blanket making / GBM</small></div>
+        <div class="photo-box"><span>YOUR PHOTO</span><small>Friends + fabric</small></div>
+        <div class="photo-box"><span>YOUR PHOTO</span><small>Finished blanket</small></div>
+      </div>
     </section>
 
-    <section id="support" class="section support">
-      <div class="section-label">05 / Where your support goes</div>
+    <section class="gbm section" id="gbms">
+      <div class="section-tag">05 — General body meetings</div>
+      <div class="gbm-card">
+        <div class="gbm-number">GBM</div>
+        <div>
+          <h2>Come make something <i>with us.</i></h2>
+          <p>Our current meeting schedule lives on Instagram so you always have the latest dates, times, and details.</p>
+          <div class="gbm-actions">
+            <a class="btn btn-dark" href="https://www.instagram.com/p/DcwICspRsrH/?utm_source=ig_web_copy_link&stkn=MzRlODBiNWFlZA==" target="_blank" rel="noopener">View current schedule ↗</a>
+            <a class="arrow-link" href="https://miamicentral.miamioh.edu/Commonthread/club_signup" target="_blank" rel="noopener">Join the roster <span>↗</span></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="support section">
+      <div class="section-tag">06 — Where it goes</div>
       <div class="support-grid">
-        <div>
-          <h2>Help us keep <span>the thread going.</span></h2>
-          <p>Donations help Common Thread continue creating opportunities for Miami students to serve, connect, and make comfort possible for others.</p>
-          <a class="button primary" href="https://www.givetomiamioh.org/CommonThread" target="_blank" rel="noopener">Donate to Common Thread ↗</a>
-        </div>
-        <div class="destination-card">
-          <div class="destination-icon">♥</div>
-          <span class="pill">Our blankets go to</span>
-          <h3>Cleveland Clinic Akron General</h3>
+        <div class="destination">
+          <p class="mini-kicker">Our blankets go to</p>
+          <h2>Cleveland Clinic<br><i>Akron General</i></h2>
           <p>Our handmade tie blankets are created for hospice patients at Cleveland Clinic Akron General.</p>
-          <a class="text-link" href="https://my.clevelandclinic.org/locations/akron-general" target="_blank" rel="noopener">Learn more about Akron General →</a>
+          <a class="arrow-link" href="https://my.clevelandclinic.org/locations/akron-general" target="_blank" rel="noopener">Visit Cleveland Clinic ↗</a>
+        </div>
+        <div class="donate-box">
+          <div class="donate-heart">♥</div>
+          <p class="mini-kicker">Keep the thread going</p>
+          <h3>Your support helps us keep creating opportunities to serve.</h3>
+          <a class="btn btn-light" href="https://www.givetomiamioh.org/CommonThread" target="_blank" rel="noopener">Donate to Common Thread ↗</a>
         </div>
       </div>
     </section>
 
-    <section id="sponsors" class="section sponsors">
-      <div class="section-label">06 / Community support</div>
-      <div class="section-heading"><div><h2>Made possible with support.</h2><p class="section-subtext">We’re grateful for the organizations and partners who help Common Thread keep creating.</p></div></div>
-      <div class="sponsor-grid">
+    <section class="partners section">
+      <div class="section-tag">07 — Community support</div>
+      <h2>Made possible <i>together.</i></h2>
+      <p>We’re grateful for the organizations and partners who help Common Thread keep creating.</p>
+      <div class="partner-list">
         <span>Saint James</span><span>Topicals</span><span>Cleveland Cavaliers</span><span>Cincinnati Reds Baseball</span><span>Where I’m From</span>
       </div>
     </section>
 
-    <section id="get-involved" class="section join">
-      <div class="join-card">
-        <div class="join-heart">♡</div>
-        <div><div class="section-label">07 / Get involved</div><h2>There’s a place for you here.</h2><p>Join our roster, come to a GBM, follow along on Instagram, or reach out with a collaboration idea. We’d love to have you be part of Common Thread.</p></div>
-        <div class="join-actions">
-          <a class="button light" href="https://miamicentral.miamioh.edu/Commonthread/club_signup" target="_blank" rel="noopener">Join our roster ↗</a>
-          <a class="button outline-light" href="https://www.instagram.com/commonthread.miami/" target="_blank" rel="noopener">Instagram ↗</a>
-          <a class="button outline-light" href="mailto:commonthread@miamioh.edu">Email us</a>
+    <section class="cta section" id="get-involved">
+      <div class="cta-card">
+        <img src="assets/common-thread-heart.png" alt="Common Thread heart logo">
+        <div>
+          <p class="section-tag">08 — Get involved</p>
+          <h2>There’s a place for <i>you here.</i></h2>
+          <p>Join our roster, come to a GBM, follow along on Instagram, or reach out with a collaboration idea.</p>
         </div>
-      </div>
-    </section>
-
-    <section class="section contact" id="contact">
-      <div><div class="section-label">Questions?</div><h2>Let’s keep the thread going.</h2></div>
-      <div class="contact-brand">
-        <img src="assets/common-thread-heart.png" alt="Common Thread heart logo" />
-        <div><p>We’re active on social media and email. Reach out anytime to learn more, get involved, or collaborate.</p><p><strong>Email:</strong> <a href="mailto:commonthread@miamioh.edu">commonthread@miamioh.edu</a><br><strong>Instagram:</strong> <a href="https://www.instagram.com/commonthread.miami/" target="_blank" rel="noopener">@commonthread.miami</a></p></div>
+        <div class="cta-buttons">
+          <a class="btn btn-white" href="https://miamicentral.miamioh.edu/Commonthread/club_signup" target="_blank" rel="noopener">Join our roster ↗</a>
+          <a class="btn btn-outline-white" href="https://www.instagram.com/commonthread.miami/" target="_blank" rel="noopener">Instagram ↗</a>
+          <a class="btn btn-outline-white" href="mailto:commonthread@miamioh.edu">Email us</a>
+        </div>
       </div>
     </section>
   </main>
 
-  <footer class="footer"><div><span class="footer-heart">♥</span> Common Thread</div><p>Made with care at Miami University.</p><div class="footer-links"><a href="https://www.instagram.com/commonthread.miami/" target="_blank" rel="noopener">Instagram</a><a href="mailto:commonthread@miamioh.edu">Email</a><a href="#top">Back to top ↑</a></div></footer>
+  <footer>
+    <div class="footer-brand">
+      <img src="assets/common-thread-heart.png" alt="">
+      <strong>common thread</strong>
+    </div>
+    <div class="footer-links">
+      <a href="https://www.instagram.com/commonthread.miami/" target="_blank" rel="noopener">@commonthread.miami</a>
+      <a href="mailto:commonthread@miamioh.edu">commonthread@miamioh.edu</a>
+    </div>
+    <p>Miami University • Made with ♥</p>
+  </footer>
+
   <script src="script.js"></script>
 </body>
 </html>
